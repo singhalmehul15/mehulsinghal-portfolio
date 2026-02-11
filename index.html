@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehul Singhal | Engineering Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body {
+  margin: 0;
+  background: #0a0f1f;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  padding: 120px 20px;
+  background: radial-gradient(circle, #1c2a5a, #0a0f1f);
+  animation: fadeIn 1.5s ease;
+}
+
+h1 {
+  font-size: 3.2em;
+  font-weight: 800;
+}
+
+h2 {
+  margin-top: 60px;
+  color: #4cc9f0;
+}
+
+p {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #4cc9f0;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.button:hover { transform: scale(1.07); }
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+  animation: fadeUp 1s ease;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  padding: 20px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.12);
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #050813;
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Mehul Singhal</h1>
+<p>High School Student | Engineering • Innovation • Leadership</p>
+<a class="button" href="#projects">View My Work</a>
+<a class="button" href="cv.pdf" download>Download CV</a>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am an IB student studying Physics, Chemistry, and Mathematics AA HL, passionate about engineering, automotive technology, aeronautics, sustainability, and innovation. I enjoy building projects, leading teams, solving technical problems, and creating real-world impact through engineering and social initiatives.
+</p>
+</section>
+
+<section id="leadership">
+<h2>Leadership & Experience</h2>
+<div class="grid">
+<div class="card">Youth Ambassador — HundrEDorg</div>
+<div class="card">Co-Founder & Deputy Project Lead — GlassMetric</div>
+<div class="card">Vice President — GIIS Mechanics Club</div>
+<div class="card">Head of Events — Robotics Club</div>
+<div class="card">Head of Design & Marketing — Literary Club</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects & Initiatives</h2>
+<div class="grid">
+<div class="card">GlassMetric — Gender Equality Leadership Initiative</div>
+<div class="card">Glass Ceiling Index — Data & Research Tool</div>
+<div class="card">GIIS Grand Prix — Motorsport Engineering Event</div>
+<div class="card">MIEC Challenge — Materials Engineering Innovation</div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card">Engineering & Design</div>
+<div class="card">Problem Solving</div>
+<div class="card">HTML, CSS, Python, R, Matlab</div>
+<div class="card">Leadership & Project Management</div>
+<div class="card">Public Speaking & Communication</div>
+</div>
+</section>
+
+<section id="certificates">
+<h2>Certificates Gallery</h2>
+<p>Upload your certificate images into a folder named <b>certificates</b></p>
+<div class="grid gallery">
+<img src="certificates/cert1.jpg">
+<img src="certificates/cert2.jpg">
+<img src="certificates/cert3.jpg">
+</div>
+</section>
+
+<section id="photos">
+<h2>Photo Gallery</h2>
+<p>Upload event and project photos into a folder named <b>photos</b></p>
+<div class="grid gallery">
+<img src="photos/photo1.jpg">
+<img src="photos/photo2.jpg">
+<img src="photos/photo3.jpg">
+</div>
+</section>
+
+<section id="volunteering">
+<h2>Volunteering & Community Impact</h2>
+<p>
+Fundraising Volunteer • HundrED Youth Ambassador • Education & Sustainability Advocacy
+</p>
+</section>
+
+<section id="challenges">
+<h2>Challenges & Growth</h2>
+<p>
+Leading large-scale initiatives like the GIIS Grand Prix taught me resilience, teamwork, time management, and problem-solving under pressure. I continuously improve through learning, feedback, and real-world experience.
+</p>
+</section>
+
+<section id="career">
+<h2>Future Career Vision</h2>
+<p>
+I aspire to work in engineering fields related to automotive technology, aeronautics, sustainable mobility, and innovation-driven problem solving.
+</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: singhalmehul15@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/mehul-s</p>
+</section>
+
+<footer>
+<p>© 2026 Mehul Singhal | Engineering Portfolio</p>
+</footer>
+
+</body>
+</html>
